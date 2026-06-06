@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    },
+    {
+      "name": "Camilo andres Ortiz diaz",
+      "email": "ortizdiazcamiloandres@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "id": "bSKRD2y5zNk"
+    },
+    {
+      "name": "Yuliana",
+      "email": "yuliana123@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "id": "KA0zmEQ3Nw8"
+    }
+  ],
+  "reservations": [
+    {
+      "userId": "bSKRD2y5zNk",
+      "movie": "Spider-Man 4",
+      "workspace": "Sala B",
+      "date": "2026-06-20",
+      "startHour": "19:00",
+      "endHour": "21:30",
+      "reason": "interesante",
+      "status": "cancelled",
+      "id": "q8CvSx1zbUA"
+    },
+    {
+      "userId": "bSKRD2y5zNk",
+      "screeningId": "1",
+      "movie": "Avatar 3",
+      "workspace": "Sala A",
+      "date": "2026-06-20",
+      "startHour": "18:00",
+      "endHour": "21:00",
+      "reason": "buena",
+      "status": "cancelled",
+      "id": "-Xj08Ae6hqc"
+    },
+    {
+      "userId": "bSKRD2y5zNk",
+      "screeningId": "1",
+      "movie": "Avatar 3",
+      "workspace": "Sala A",
+      "date": "2026-06-20",
+      "startHour": "18:00",
+      "endHour": "21:00",
+      "reason": "buena",
+      "status": "pending",
+      "id": "rC9M3Ylv_Us"
+    },
+    {
+      "userId": "bSKRD2y5zNk",
+      "screeningId": "qJHh0hez3s8",
+      "movie": "Scary Movie",
+      "workspace": "Sala D",
+      "date": "2026-06-17",
+      "startHour": "12:10",
+      "endHour": "14:30",
+      "reason": "exrctvbhnimkl,.ñ",
+      "status": "pending",
+      "id": "pJaU2q4-f68"
+    }
+  ],
+  "screenings": [
+    {
+      "id": "1",
+      "movie": "Avatar 3",
+      "room": "Sala A",
+      "date": "2026-06-20",
+      "startTime": "18:00",
+      "endTime": "21:00",
+      "price": 12.5,
+      "totalCapacity": 50,
+      "availableSpots": 46,
+      "status": "activa"
+    },
+    {
+      "id": "2",
+      "movie": "Spider-Man 4",
+      "room": "Sala B",
+      "date": "2026-06-20",
+      "startTime": "19:00",
+      "endTime": "21:30",
+      "price": 10,
+      "totalCapacity": 40,
+      "availableSpots": 40,
+      "status": "activa"
+    },
+    {
+      "id": "4",
+      "movie": "Minions 3",
+      "room": "Sala C",
+      "date": "2026-06-21",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "price": 8.5,
+      "totalCapacity": 60,
+      "availableSpots": 0,
+      "status": "activa"
+    },
+    {
+      "movie": "Scary Movie",
+      "room": "Sala D",
+      "date": "2026-06-17",
+      "startTime": "12:10",
+      "endTime": "14:30",
+      "price": 2.5,
+      "totalCapacity": 1,
+      "availableSpots": 0,
+      "status": "activa",
+      "id": "qJHh0hez3s8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
